@@ -38,3 +38,6 @@ def main():
     print(f"{bike_courier.name} ({bike_courier.bike_type}): {bike_courier.delivery_range()}")
     print(f"{car_courier.name} ({car_courier.car_model}): {car_courier.delivery_range()}")
     print(f"{drone_courier.name} ({drone_courier.drone_model}): {drone_courier.delivery_range()}")
+    
+if __name__ == "__main__":
+    main()
